@@ -1,0 +1,9 @@
+dist/
+.env
+.DS_Store
+.vscode/
+
+# MODIFIED
+/node_modules
+/coverage
+/build
