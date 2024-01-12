@@ -1,5 +1,7 @@
-var TOP = 'Top';
-var RIGHT = 'Right';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const TOP = 'Top';
+const RIGHT = 'Right';
 var Direction;
 (function (Direction) {
     Direction[Direction["TOP"] = 0] = "TOP";
