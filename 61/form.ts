@@ -7,16 +7,11 @@ interface IForm {
 // Учтите, что данные в форме могут расширяться и эти поля
 // должны появиться и в объекте валидации
 
-interface IFieldValue {
-  isValid: boolean;
-  errorMsg?: string;
-}
-
-interface IValidationData {
-  [key: string]: IFieldValue;
-}
-
-const validationData: IValidationData = {
+const validationData: Validation<IForm> = {
   login: { isValid: false, errorMsg: 'At least 3 characters' },
   password: { isValid: true },
+};
+
+type Validation<T> = {
+  [P in keyof T]: { isValid: true } | { isValid: false; errorMsg: string };
 };
