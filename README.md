@@ -1,5 +1,11 @@
-# Полный курс по современному TypeScript
+![MasterHead](./head.png)
+
+# Modern TypeScript Complete Course
+
+## Description
 
 Hi!
 
-In this repo I store notes from the course of [Полный курс по современному TypeScript](https://www.udemy.com/course/modern_typescript/) by Иван Петриченко
+In this repo I store notes from the course of [Modern TypeScript Complete Course](https://www.udemy.com/course/modern_typescript/) by Ivan Petrychenko
+
+![MasterHead](./certificate.png)
